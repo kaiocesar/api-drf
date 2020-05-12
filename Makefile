@@ -10,4 +10,4 @@ mig:
 	docker-compose exec web python manage.py migrate --noinput
 
 ter:
-	docker exec -it api_drf_1 /bin/sh
+	docker exec -it api-drf_web_1 /bin/sh
