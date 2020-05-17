@@ -4,6 +4,9 @@ up:
 	docker-compose up --build
 
 dw:
+	docker-compose down
+
+dwv: 
 	docker-compose down -v
 
 mig:
