@@ -14,3 +14,6 @@ mig:
 
 ter:
 	docker exec -ti api-drf_web_1 /bin/sh
+
+lint:
+	docker-compose run web sh -c "flake8"

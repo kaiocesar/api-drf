@@ -13,3 +13,6 @@ COPY ./requirements.txt /usr/src/core/requirements.txt
 RUN pip install -r requirements.txt
 
 COPY . /usr/src/core
+
+RUN adduser -D user
+USER user
